@@ -56,36 +56,4 @@ export class App extends React.Component {
       </div>
     );
   }
-
-  /*state = {
-    value: 0,
-    step: 1,
-  };
-
-  handleIncrement = () => {
-    this.setState(state => ({
-      value: state.value + 1,
-    }));
-  };
-
-  handleDecrement = () => {
-    this.setState(state => ({
-      value: state.value - 1,
-    }));
-  };
-
-  render() {
-
-    return (
-      <div>
-        <span>{this.state.value}</span>
-        <button type="button" onClick={this.handleIncrement}>
-          Increment
-        </button>
-        <button type="button" onClick={this.handleDecrement}>
-          Decrement
-        </button>
-      </div>
-    );
-  }*/
 }
